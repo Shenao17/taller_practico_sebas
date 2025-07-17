@@ -1,0 +1,98 @@
+/* === Tarjeta principal === */
+.perfil {
+  width: 300px;
+  height: auto;           /* puse esta altura ya que se me juntaban las tarjetas */
+  margin: 0 auto;              /* centrar horizontalmente */
+  padding: 30px;               /* espacio interno general */
+  background-color: #f9f9f9;   /* color de fondo claro */
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.2); /* sombra leve */
+}
+
+/* === Título del perfil === */
+.perfil h1 {
+  border: 4px solid #555; /* gris oscuro */
+  padding: 20px;          /* separación del texto con el borde */
+  margin-top: 30px;       /* margen superior */
+  margin-bottom: 15px;    /* margen inferior */
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+/* === Imagen de perfil === */
+.perfil img {
+  width: 150px;
+  height: 150px;
+  border: 4px solid blue; /* borde azul */
+  border-radius: 50%;     /* redondeado */
+  padding: 10px;          /* relleno alrededor de la imagen */
+  margin-bottom: 20px;    /* separación inferior */
+  display: block;         /* para poder centrar con margin auto */
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+}
+
+/* === Biografía === */
+.perfil p {
+  border: 2px dashed #333; /* borde discontinuo */
+  margin-left: 30px;        /* márgenes laterales */
+  margin-right: 30px;
+  padding: 15px;            /* espacio interno */
+  text-align: center;
+  box-sizing: border-box;
+  border-radius: 10%;
+}
+
+.perfil footer {
+  border-top: 3px solid #333; /* solo borde superior */
+  padding-bottom: 10px;       /* espacio interno abajo */
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* === Segunda tarjeta de perfil (valores reducidos) === */
+.perfil-secundario {
+  box-shadow: none;          
+  margin: 50px auto 10px auto; 
+  border: 1px solid #ccc;    
+  padding: 15px;             
+  width: 300px;             
+  box-sizing: border-box;
+}
+
+.perfil-secundario h1 {
+  border: 2px solid #777;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.perfil-secundario img {
+  width: 150px;
+  height: 150px;
+  border: 2px solid blue;
+  border-radius: 50%;
+  padding: 5px;
+  margin-bottom: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+}
+
+.perfil-secundario p {
+  margin: 10px;
+  padding: 10px;
+  border: 1px dashed #333;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.perfil-secundario footer {
+  border-top: 2px solid #333;
+  padding-bottom: 5px;
+  text-align: center;
+  margin-top: 10px;
+}
